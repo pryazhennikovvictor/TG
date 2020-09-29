@@ -1,0 +1,140 @@
+object Form1: TForm1
+  Left = 724
+  Height = 318
+  Top = 169
+  Width = 477
+  Caption = 'Form1'
+  ClientHeight = 298
+  ClientWidth = 477
+  Menu = MainMenu1
+  OnCreate = FormCreate
+  LCLVersion = '2.0.6.0'
+  object vX: TLabel
+    Left = 8
+    Height = 25
+    Top = 8
+    Width = 90
+    Caption = 'Введите X:'
+    Font.Height = -19
+    ParentColor = False
+    ParentFont = False
+  end
+  object vY: TLabel
+    Left = 8
+    Height = 25
+    Top = 48
+    Width = 90
+    Caption = 'Введите Y:'
+    Font.Height = -19
+    ParentColor = False
+    ParentFont = False
+  end
+  object vvodX: TEdit
+    AnchorSideRight.Side = asrBottom
+    Left = 112
+    Height = 23
+    Top = 10
+    Width = 199
+    Anchors = [akTop, akLeft, akRight]
+    TabOrder = 0
+  end
+  object vvodY: TEdit
+    AnchorSideRight.Side = asrBottom
+    Left = 112
+    Height = 23
+    Top = 48
+    Width = 199
+    Anchors = [akTop, akLeft, akRight]
+    TabOrder = 1
+  end
+  object Button1: TButton
+    AnchorSideLeft.Control = vvodX
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideTop.Control = Owner
+    Left = 325
+    Height = 41
+    Top = 20
+    Width = 120
+    BorderSpacing.Left = 14
+    BorderSpacing.Top = 20
+    Caption = 'Вычислить'
+    Font.Height = -19
+    OnClick = Button1Click
+    ParentFont = False
+    TabOrder = 2
+  end
+  object Label3: TLabel
+    AnchorSideTop.Control = vvodY
+    AnchorSideTop.Side = asrBottom
+    Left = 112
+    Height = 25
+    Top = 91
+    Width = 209
+    BorderSpacing.Top = 20
+    Caption = 'Результаты вычислений'
+    Font.Height = -19
+    ParentColor = False
+    ParentFont = False
+  end
+  object StringGrid1: TStringGrid
+    Left = 0
+    Height = 178
+    Top = 120
+    Width = 477
+    ColCount = 4
+    FixedCols = 0
+    RowCount = 1
+    TabOrder = 3
+    ColWidths = (
+      117
+      120
+      114
+      121
+    )
+    Cells = (
+      4
+      0
+      0
+      '№'
+      1
+      0
+      'X'
+      2
+      0
+      'Y'
+      3
+      0
+      'Результат'
+    )
+  end
+  object MainMenu1: TMainMenu
+    left = 272
+    object MenuItem5: TMenuItem
+      Caption = 'Файл'
+      object MenuItem6: TMenuItem
+        Caption = 'Открыть'
+        OnClick = MenuItem6Click
+      end
+      object MenuItem7: TMenuItem
+        Caption = 'Сохранить'
+        OnClick = MenuItem7Click
+      end
+    end
+    object MenuItem1: TMenuItem
+      Caption = 'Справка'
+      OnClick = MenuItem1Click
+    end
+    object MenuItem4: TMenuItem
+      Caption = 'Выход'
+      OnClick = MenuItem4Click
+    end
+  end
+  object OpenDialog1: TOpenDialog
+    left = 336
+    top = 72
+  end
+  object SaveDialog1: TSaveDialog
+    left = 408
+    top = 72
+  end
+end
