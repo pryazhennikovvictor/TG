@@ -1,0 +1,10 @@
+C:\Users\Алексей\Desktop\УЧЁБА\OOP\Textquest\Textquest\bin\Debug\Textquest.exe.config
+C:\Users\Алексей\Desktop\УЧЁБА\OOP\Textquest\Textquest\bin\Debug\Textquest.exe
+C:\Users\Алексей\Desktop\УЧЁБА\OOP\Textquest\Textquest\bin\Debug\Textquest.pdb
+C:\Users\Алексей\Desktop\УЧЁБА\OOP\Textquest\Textquest\obj\Debug\Textquest.csprojAssemblyReference.cache
+C:\Users\Алексей\Desktop\УЧЁБА\OOP\Textquest\Textquest\obj\Debug\Textquest.Properties.Resources.resources
+C:\Users\Алексей\Desktop\УЧЁБА\OOP\Textquest\Textquest\obj\Debug\Textquest.csproj.GenerateResource.cache
+C:\Users\Алексей\Desktop\УЧЁБА\OOP\Textquest\Textquest\obj\Debug\Textquest.csproj.CoreCompileInputs.cache
+C:\Users\Алексей\Desktop\УЧЁБА\OOP\Textquest\Textquest\obj\Debug\Textquest.exe
+C:\Users\Алексей\Desktop\УЧЁБА\OOP\Textquest\Textquest\obj\Debug\Textquest.pdb
+C:\Users\Алексей\Desktop\УЧЁБА\OOP\Textquest\Textquest\obj\Debug\Textquest.Cave.resources
